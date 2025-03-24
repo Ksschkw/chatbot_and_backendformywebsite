@@ -2,5 +2,12 @@ flask==3.0.0
 flask-cors==4.0.0
 torch==2.0.1
 python-dotenv==1.0.0
+requests==2.31.0
+numpy==1.24.3
+scikit-learn==1.2.2
+nltk==3.8.1
 gunicorn==20.1.0
-# Add any other dependencies
+transformers==4.30.2  # For potential future NLP features
+sentencepiece==0.1.99  # Needed for some tokenizers
+protobuf==3.20.3  # Required for serialization
+accelerate==0.21.0  # For optimized training
